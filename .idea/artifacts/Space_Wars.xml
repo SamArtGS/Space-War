@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Space Wars">
+    <output-path>$PROJECT_DIR$/out/artifacts/Space_Wars</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="alias" value="" />
+        <option name="appClass" value="com.company.SpaceMain" />
+        <option name="convertCss2Bin" value="true" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="keystore" value="" />
+        <option name="nativeBundle" value="dmg" />
+        <option name="title" value="Space War" />
+        <option name="vendor" value="Samuel Arturo Garrido Sanchez" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="module-output" name="SpaceWar" />
+      <element id="archive" name="SpaceWar.jar">
+        <element id="artifact" artifact-name="Space War" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/Salida/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
